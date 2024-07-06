@@ -1,0 +1,24 @@
+# This is a perl script snippet, storing ASA login credentials.
+#
+# Copyright 2024 Patrik Schindler <poc@pocnet.net>
+#
+# This file is part of the Cisco ASA Shunner, to be found on https://github.com/PoC-dev/cisco-asa-shunner - see there for further
+# details.
+#
+# This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+#
+# It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with this; if not, write to the Free Software Foundation,
+# Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA or get it at http://www.gnu.org/licenses/gpl.html
+
+$config->{"hostname"} = 'myasafirewall.local';
+$config->{"username"} = 'fail2ban';
+$config->{"password"} = 'mydirtylittlesecret';
+#$config->{"enable"}   = '';
+
+#-----------------------------------------------------------------------------------------------------------------------------------
+# vim: tabstop=4 shiftwidth=4 autoindent colorcolumn=133 expandtab textwidth=132 filetype=perl
+# -EOF-
