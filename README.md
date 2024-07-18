@@ -79,5 +79,8 @@ Finally, restart *fail2ban*.
 - `show shun` on ASA should show entries if something triggered *fail2ban*.
 - The list of shuns should match the output of `fail2ban-client banned`. **Note**: One IP address can be shunned just once but might have triggered multiple jails of *fail2ban*.
 
+## Known issues
+- Current ASA firmware can't handle IPv6 addresses in `shun` command. See Cisco Bug [CSCwk36512](https://bst.cisco.com/quickview/bug/CSCwk36512). This isn't a flaw from us.
+
 ----
-2024-07-06 poc@pocnet.net
+2024-07-18 poc@pocnet.net
